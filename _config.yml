@@ -1,0 +1,15 @@
+title: Alex's Blog 
+email: albarrync@gmail.com 
+description: > # this means to ignore newlines until "baseurl:"
+  Alex's Blog
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+github_username:  albarrync
+
+markdown: kramdown
+plugins:
+  - jekyll-feed
+
+sass:
+  style: compact
+  sass_dir: _sass

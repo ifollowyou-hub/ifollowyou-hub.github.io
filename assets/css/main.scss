@@ -1,0 +1,13 @@
+---
+# Front Matter for Jekyll Import
+---
+
+@import "normalize.css";
+@import "header";
+@import "hero";
+@import "typography";
+
+body {
+  background-color: #101010;
+  color: #cfcfcf;
+}

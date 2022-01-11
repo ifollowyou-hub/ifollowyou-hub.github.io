@@ -1,0 +1,25 @@
+header {
+  background-color: #141414;
+  height: 3.5rem;
+  font-color: #000;
+  max-height: 3.5rem;
+  padding: 0.33rem 2rem;
+  width: 100vw;
+  a {
+    color: #dfdfdf;
+    text-decoration-line: none;
+  }
+  nav {
+    display: inline-flex;
+    .nav-links {
+      padding: 1.25rem 0 0 60vw;
+    }
+  }
+  .home-link {
+    font-size: xx-large;
+    margin-top: 0.5rem;
+  }
+  .nav-link {
+    padding: 0 1rem;
+  }
+}
