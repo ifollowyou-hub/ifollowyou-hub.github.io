@@ -4,8 +4,30 @@ layout: default
 
 {% include hero.html %}
 
-<div>
-  <div>
-    Welcome
+
+<div class="greeting-text">
+  I'm Alex. Nice to meet you.
+</div>
+<div class="intro-text">
+  I'm a software developer from North Carolina who loves playing and repairing guitars.
+  Learning is a lifelong journey, and some of my favorite topics are <strong>privacy</strong>,
+   <strong> security</strong>, and <strong>history</strong>.
+   On this site I'll share what I'm working on, what I'm reading, and <em>even</em> what I'm thinking.
+</div> 
+
+<div class="traversal-groups">
+  <div class="traversal-blog traversal-title">
+    Latest Blog Post
+    {% for post in site.posts limit:1 %}
+    <h4>{{ post.title }}</h4>
+    <p>{{ post.content }}</p>
+    {% endfor %}
+
+  </div>
+  <div class="traversal-projects traversal-title">
+    My Projects
+  </div>
+  <div class="traversal-about traversal-title">
+    About Me
   </div>
 </div>

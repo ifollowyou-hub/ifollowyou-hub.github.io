@@ -1,0 +1,28 @@
+.greeting-text {
+  font-size: 3rem;
+  text-align: center;
+  margin-top: -3rem;
+}
+.intro-text {
+  max-width: 800px;
+  margin: 2rem auto;
+  text-align: center;
+}
+
+
+// TRAVERSAL STYLES
+.traversal-groups {
+  display: inline-flex;
+  margin: 2rem 4vw;
+  width: 90vw;
+  div {
+    margin: 0 1rem;
+    padding: 0.5rem;
+    width: 30%;
+  }
+  .traversal-title {
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+  }
+}

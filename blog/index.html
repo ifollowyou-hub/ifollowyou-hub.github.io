@@ -4,8 +4,22 @@ title: Alex's Blog
 description: Posts from Alex
 ---
 
-
+<div class="blog-header">
+  <h1>Blog</h1>
+</div>
 
 {% for post in site.posts %}
-  <h2>{{ post.title }}</h2>
+<div class="post-container">
+  <div class="post-content">
+    <div class="post-title">
+    <h2>{{ post.title }}</h2>
+    <div class="post-date">- {{ post.date | date: '%B %d, %Y'}}</div>
+    </div>
+    <p>{{ post.content }}</p>
+    <div class="post-image"></div>
+  </div>
+  <div class="blog-jump">
+    <a href={{ post.url }}>Continue reading...</a>
+  </div>
+</div>
 {% endfor %}

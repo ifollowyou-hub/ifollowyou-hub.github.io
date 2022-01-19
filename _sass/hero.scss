@@ -1,7 +1,23 @@
 .hero {
-  background-image: url(/images/PedalBoard.JPG);
+  background-image: url(/images/mt_mitchell.png);
   background-position: center top;
   background-size: cover;
-  height: 70vh;
+  height: 60vh;
   max-width: 100vw;
+}
+
+
+// PORTRAIT STYLES
+
+.portrait-photo {
+  background-image: url(/images/ab_avatar.png/);
+  background-position: center top;
+  background-size: cover;
+  border-radius: 50%;
+  border: 8px white solid;
+  box-shadow: 0 0 15px #000;
+  height: 20vh;
+  margin: auto;
+  transform: translateY(-100px);
+  width: 20vh;
 }
