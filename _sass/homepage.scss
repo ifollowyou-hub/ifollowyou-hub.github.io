@@ -13,16 +13,31 @@
 // TRAVERSAL STYLES
 .traversal-groups {
   display: inline-flex;
-  margin: 2rem 4vw;
+  margin: 2rem 6vw;
+  text-align: center;
   width: 90vw;
-  div {
+  a {
+    color: #4b7ed1;
+  }
+  .traversal-item {
     margin: 0 1rem;
     padding: 0.5rem;
-    width: 30%;
+    width: 30vw;
+    h3 {
+      margin: .5rem 0 0;
+    }
+  }
+  .home-jump {
+    color: #7f7f7f;
+    float: right;
+    font-weight: 300;
   }
   .traversal-title {
-    text-align: center;
+    font-size: xx-large;
     text-decoration: underline;
-    text-transform: uppercase;
   }
+}
+
+.home-excerpt {
+  font-weight: 300;
 }

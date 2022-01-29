@@ -16,18 +16,27 @@ layout: default
 </div> 
 
 <div class="traversal-groups">
-  <div class="traversal-blog traversal-title">
-    Latest Blog Post
+  <div class="traversal-blog traversal-item">
+    <div class="traversal-title">
+      Latest Blog Post
+    </div>
     {% for post in site.posts limit:1 %}
-    <h4>{{ post.title }}</h4>
-    <p>{{ post.excerpt }}</p>
+      <h3>{{ post.title }}</h3>
+      <div class="home-excerpt">
+        <p>{{ post.excerpt }}</p>
+      </div>
+      <a href={{ post.url }} class="home-jump"> Read more...</a>
     {% endfor %}
 
   </div>
-  <div class="traversal-projects traversal-title">
-    Portfolio
+  <div class="traversal-projects traversal-item">
+    <div class="traversal-title">
+      Portfolio
+    </div>
   </div>
-  <div class="traversal-about traversal-title">
-    About Me
+  <div class="traversal-about traversal-item">
+    <div class="traversal-title">
+      About Me
+    </div>
   </div>
 </div>
