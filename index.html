@@ -9,7 +9,7 @@ layout: default
   I'm Alex. Nice to meet you.
 </div>
 <div class="intro-text">
-  I'm a software developer from North Carolina who loves playing and repairing guitars.
+  I'm a full-stack software developer from North Carolina who loves playing and repairing guitars.
   Learning is a lifelong journey, and some of my favorite topics are <strong>privacy</strong>,
    <strong> security</strong>, and <strong>history</strong>.
    On this site I'll share what I'm working on, what I'm reading, and <em>even</em> what I'm thinking.
@@ -20,7 +20,7 @@ layout: default
     Latest Blog Post
     {% for post in site.posts limit:1 %}
     <h4>{{ post.title }}</h4>
-    <p>{{ post.content }}</p>
+    <p>{{ post.excerpt }}</p>
     {% endfor %}
 
   </div>
