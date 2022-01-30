@@ -7,8 +7,16 @@ title: Alex's Portfolio
   <h1>Portfolio</h1>
   {% for project in site.projects %}
     <div class="project-container">
-      <h3>{{ project.title }}</h3>
+      {% if project.under_construction %}
+        <div class="construction-banner">Under Construction</div> 
+      {% endif %}
+      <h3> - {{ project.title }} - </h3>
       <p>{{ project.content }}</p>
+      {% if project.repo_public %}
+        <div class="repo-link">
+          <a href="{{ project.repo_url }}" target="_blank">Github Repo</a>
+        </div>
+      {% endif %}
     </div>
   {% endfor %}
 </div>

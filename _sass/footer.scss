@@ -1,0 +1,13 @@
+.footer-container {
+  background-color: #141414;
+  text-align: center;
+  width: 100vw;
+  ul {
+    display: inline-flex;
+    list-style: none;
+    margin: 0.5rem;
+    li {
+      padding: 1rem;
+    }
+  }
+}

@@ -1,14 +1,15 @@
 ---
 layout: default
-in_progress: false
+under_construction: false
+repo_public: true
+repo_url: https://github.com/albarrync
 title: dotfiles
-repo: REPO_URL
 ---
 
 You can get a detailed idea of how I like to work by checking out my dotfiles.
 I'm currently using the following tools:
-* Neovim
+* [Neovim](https://neovim.io){:target="_blank"}
 * zshell
-* oh-my-zshell
-* powerlevel10k Theme
+* [oh-my-zshell](https://ohmyz.sh){:target="_blank"}
+* [powerlevel10k Theme](https://github.com/romkatv/powerlevel10k){:target="_blank"}
 

@@ -6,6 +6,7 @@
 
 @import "about";
 @import "blog";
+@import "footer";
 @import "header";
 @import "hero";
 @import "homepage";
@@ -17,3 +18,7 @@ body {
   background-color: #101010;
   color: #cfcfcf;
 }
+a {
+  color: #4b7ed1;
+}
+

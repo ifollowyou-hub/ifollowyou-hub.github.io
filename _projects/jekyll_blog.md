@@ -1,8 +1,9 @@
 ---
 layout: default
-in_progress: false
+under_construction: false
 title: Jekyll Blog
-repo: REPO_URL
+repo_public: true
+repo_url: https://github.com/albarrync
 ---
 
 You are here. This is my hand-rolled, ultra-simple, blog.

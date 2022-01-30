@@ -1,8 +1,8 @@
 ---
 layout: default
-in_progress: false
-title: Primary Apps
-repo: private
+under_construction: false
+title: Primary Work Apps
+repo_public: false
 ---
 
 This is just a catch-all for the software I help create and maintain on a daily basis.
