@@ -13,3 +13,13 @@ plugins:
 sass:
   style: compact
   sass_dir: _sass
+
+collections:
+  projects:
+    order:
+      - gigbot.md
+      - graphql_sample_app.md
+      - primary_apps.md
+      - jekyll_blog.md
+      - dotfiles.md
+      - bitburner.md
