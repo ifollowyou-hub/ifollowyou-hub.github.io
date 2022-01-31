@@ -3,7 +3,7 @@ layout: default
 under_construction: false
 title: Jekyll Blog
 repo_public: true
-repo_url: https://github.com/albarrync
+repo_url: https://github.com/albarrync/albarrync.github.io
 ---
 
 You are here. This is my hand-rolled, ultra-simple, blog.
