@@ -37,6 +37,16 @@
     text-decoration: underline;
   }
 }
+.traversal-icon {
+  font-size: 10rem;
+  a {
+    color: #fff;
+    &:hover {
+      color: #4b7ed1;
+      transition: ease-in-out 0.2s;
+    }
+  }
+}
 
 .home-excerpt {
   font-weight: 300;
