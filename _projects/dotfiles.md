@@ -2,7 +2,7 @@
 layout: default
 under_construction: false
 repo_public: true
-repo_url: https://github.com/albarrync
+repo_url: https://github.com/albarrync/dotfiles
 title: dotfiles
 ---
 
