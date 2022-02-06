@@ -1,0 +1,26 @@
+{% if page.category == 'guitar' %}
+  <div class="post-category" style="background-color: #79740e;">
+    <i class="fa-solid fa-guitar"></i>
+    <div class="category-text">Guitar</div>
+  </div>
+{% elsif page.category == 'coding' %}
+  <div class="post-category" style="background-color: #2e9731;">
+    <i class="fa-solid fa-terminal"></i>
+    <div class="category-text">Coding</div>
+  </div>
+{% elsif page.category == 'privacy' %}
+  <div class="post-category" style="background-color: #8f3f71;">
+    <i class="fa-solid fa-user-lock"></i>
+    <div class="category-text">Privacy</div>
+  </div>
+{% elsif page.category == 'security' %}
+  <div class="post-category" style="background-color: #076678;">
+    <i class="fa-solid fa-lock"></i>
+    <div class="category-text">Security</div>
+  </div>
+{% elsif page.category == 'history' %}
+  <div class="post-category" style="background-color: #9d0006;">
+    <i class="fa-solid fa-earth-americas"></i>
+    <div class="category-text">History</div>
+  </div>
+{% endif %}

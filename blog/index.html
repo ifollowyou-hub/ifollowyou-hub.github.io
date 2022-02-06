@@ -12,9 +12,10 @@ description: Posts from Alex
 <div class="blog-container">
   <div class="blog-content">
     <div class="blog-title">
-    <h2>{{ post.title }}</h2>
-    <div class="blog-date">- {{ post.date | date: '%B %d, %Y'}}</div>
+      <h2>{{ post.title }}</h2>
+      <div class="blog-date">- {{ post.date | date: '%B %d, %Y'}}</div>
     </div>
+    {{ include blog_icon.html }}
     <p>{{ post.excerpt }}</p>
     <div class="blog-image"></div>
   </div>

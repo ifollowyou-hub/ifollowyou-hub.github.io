@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Upgrading the Toolkit
+category: coding
 excerpt_separator: <!--jump-->
 ---
 

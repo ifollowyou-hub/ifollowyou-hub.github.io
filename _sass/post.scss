@@ -2,7 +2,7 @@
   padding: 3rem 10vw;
   min-height: 77vh;
   .post-title {
-    padding-bottom: 3rem;
+    margin-bottom: 0.5rem;
     text-align: center;
   }
   .post-body {
@@ -12,5 +12,18 @@
   }
   a {
     color: #4b7ed1;
+  }
+  .post-category {
+    background-color: #0a0a0a;
+    border-radius: 8px;
+    box-shadow: 0px 0px 26px #000;
+    margin: 0 auto 2rem;
+    padding: 0.5rem;
+    text-align: center;
+    width: 6rem;
+  }
+  .post-date {
+    margin-bottom: 1.5rem;
+    text-align: center;
   }
 }

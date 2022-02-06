@@ -1,6 +1,7 @@
 ---
 layout: post
 title: The Journey of Self-Learning
+category: coding
 excerpt_separator: <!--jump-->
 ---
 
