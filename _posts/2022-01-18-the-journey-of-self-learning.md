@@ -27,7 +27,7 @@ can understand, there's really no limit to your potential. Here are some of my f
 * Gary Bernhardt - [Execute Program](https://executeprogram.com){:target="_blank"} - JavaScript & TypeScript
 * Wes Bos - [Wes Bos](https://wesbos.com/){:target="_blank"} - JavaScript & React
 * Michael Hartl - [Learn Enough to be Dangerous](https://www.learnenough.com){:target="_blank"} - Rails & Web Development Beginner
-* Git Immersion - [Git Immersion](https://www.learnenough.com){:target="_blank"} - Git Tutorial
+* Git Immersion - [Git Immersion](https://gitimmersion.com){:target="_blank"} - Git Tutorial
 
 I'll update this post from time-to-time with sources as I find them. Next up - 
 Smart Contracts and Ethereum/Solana.
