@@ -26,3 +26,11 @@ a {
   font-size: xx-large;
   text-align: center;
 }
+
+// RESPONSIVE MAIN
+@media screen and (max-width: 1200px) {
+  body {
+    font-size: 2em;
+  }
+}
+

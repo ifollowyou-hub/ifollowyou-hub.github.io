@@ -51,3 +51,19 @@
 .home-excerpt {
   font-weight: 300;
 }
+
+// RESPONSIVE HOMEPAGE
+@media screen and (max-width: 1200px) {
+  .traversal-groups {
+    display: block;
+    margin: 0 auto;
+    width: unset;
+    .traversal-item {
+      padding: 5%;
+      width: unset;
+      .traversal-title {
+        text-align: center;
+      }
+    }
+  }
+}
