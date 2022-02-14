@@ -1,5 +1,6 @@
 .bio-body{
   display: inline-flex;
+  margin: auto 10vw;
 }
 
 .bio-text {
@@ -9,7 +10,7 @@
   border: 3px white solid;
   font-weight: 300;
   height: 60vh;
-  margin: 2rem 0 0 38vw;
+  margin: 2rem 0;
   max-width: 400px;  
   padding: 2rem;
   a {
@@ -19,6 +20,16 @@
 
 .bio-portrait {
   background-image: url(/images/ab_portrait.png);
+  background-position: center;
+  background-size: cover;
+  filter: sepia(25%)
+          grayscale(25%);
+  height: 68vh;
+  margin: 2rem;
+  width: 30vw;
+}
+.bio-guitar {
+  background-image: url(/images/lp_custom.png);
   background-position: center;
   background-size: cover;
   filter: sepia(25%)
