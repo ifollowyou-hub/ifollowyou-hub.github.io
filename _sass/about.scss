@@ -38,3 +38,26 @@
   margin: 2rem;
   width: 30vw;
 }
+
+
+// RESPONSIVE ABOUT
+@media screen and (max-width: 1200px) {
+  .bio-body {
+    display: block;
+  }
+  .bio-guitar {
+    display: none;
+  }
+  .bio-portrait {
+    margin: 0 auto;
+    max-height: 50vh;
+    max-width: 500px;
+    min-height: 500px;
+    width: 75vw;
+  }
+  .bio-text {
+    height: unset;
+    max-width: unset;
+    width: unset;
+  }
+}

@@ -29,3 +29,16 @@
   position: absolute;
   width: 10%;
 }
+
+
+// RESPONSIVE PORTFOLIO
+@media screen and (max-width: 1200px) {
+  .construction-banner {
+    font-size: unset;
+    height: unset;
+    transform: unset;
+    margin: 0 auto;
+    position: unset;
+    width: 90%;
+  }
+}
