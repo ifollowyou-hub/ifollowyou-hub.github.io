@@ -11,9 +11,9 @@ media, and some decentralization technologies with massive potential (NFT, DAO, 
 
 Proportionally, the breadth and efficacy/efficiency of tools one may use to learn
 about these technologies has exploded.
-<!--jump-->
 While in the past there may have been some significant barriers of entry to the 
 tech world, the _only_ two resources someone needs now are ``-time-`` and ``-motivation-``.
+<!--jump-->
 
 For the price of a Five Guys meal, you can most likely find a course for any
 technology, and it may even come coupled with any flavor of a second (e.g. Rails+Vue.js).

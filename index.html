@@ -21,7 +21,7 @@ layout: default
       Latest Blog Post
     </div>
     {% for post in site.posts limit:1 %}
-      <h3>{{ post.title }}</h3>
+    <h3><a href={{post.url}}>{{ post.title }}</a></h3>
       <div class="home-excerpt">
         <p>{{ post.excerpt }}</p>
       </div>
